@@ -21,7 +21,10 @@ class ReviewSerializer(serializers.ModelSerializer):
 
 
 class CourseSerializer(serializers.ModelSerializer):
-    reviews = ReviewSerializer(many=True, read_only=True)
+    reviews = serializers.PrimaryKeyRelatedField(
+        many=True,
+        read_only=True,
+    )
 
     class Meta:
         fields = (

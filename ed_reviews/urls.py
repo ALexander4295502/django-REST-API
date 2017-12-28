@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 
-from django.urls import include, re_path
+from django.conf.urls import include, url
 from django.contrib import admin
 
 from rest_framework import routers
@@ -27,11 +27,14 @@ router.register(r'reviews', views.ReviewViewSets)
 
 app_name = 'ed_reviews'
 urlpatterns = [
-    re_path(r'^admin/', admin.site.urls),
-    re_path(r'^api-auth/', include(
-        'rest_framework.urls'
+    url(r'^admin/', admin.site.urls),
+    url(r'^api-auth/', include(
+        'rest_framework.urls',
+        'rest_framework'
     )),
-    re_path(r'^api/v1/courses/',
-            include('courses.urls')),
-    re_path(r'api/v2/', include(router.urls)),
+    url(r'^api/v1/courses/',
+        include('courses.urls',
+                'courses'
+                )),
+    url(r'api/v2/', include(router.urls, 'apiv2')),
 ]
