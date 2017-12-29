@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="158e42fa-6c4f-42cc-bd79-af477ec4bc30" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/courses/views.py" afterPath="$PROJECT_DIR$/courses/views.py" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/courses/serializers.py" afterPath="$PROJECT_DIR$/courses/serializers.py" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change beforePath="$PROJECT_DIR$/ed_reviews/settings.py" afterPath="$PROJECT_DIR$/ed_reviews/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +23,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ed_reviews/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="120" column="16" lean-forward="true" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
+            <state relative-caret-position="288">
+              <caret line="126" column="35" lean-forward="true" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="35" />
               <folding>
                 <element signature="e#311#320#0" expanded="true" />
               </folding>
@@ -29,23 +32,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/courses/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="273">
+              <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/courses/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+            <state relative-caret-position="239">
+              <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -65,12 +78,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ed_reviews/wsgi.py">
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/courses/apps.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/courses/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,9 +164,10 @@
         <option value="$PROJECT_DIR$/courses/models.py" />
         <option value="$PROJECT_DIR$/courses/urls.py" />
         <option value="$PROJECT_DIR$/ed_reviews/urls.py" />
-        <option value="$PROJECT_DIR$/courses/serializers.py" />
-        <option value="$PROJECT_DIR$/ed_reviews/settings.py" />
         <option value="$PROJECT_DIR$/courses/views.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ed_reviews/settings.py" />
+        <option value="$PROJECT_DIR$/courses/serializers.py" />
       </list>
     </option>
   </component>
@@ -242,7 +268,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="settin&#9;FILE&#9;file:///Users/yuanzheng/Desktop/WUSTL/Web/Django/Django REST Framework/ed_reviews/settings.py&#10;url&#9;FILE&#9;file:///Users/yuanzheng/Desktop/WUSTL/Web/Django/Django REST Framework/courses/urls.py&#10;view&#9;null&#9;null&#10;vie&#9;FILE&#9;file:///Users/yuanzheng/Desktop/WUSTL/Web/Django/Django REST Framework/courses/views.py&#10;sett&#9;FILE&#9;file:///Users/yuanzheng/Desktop/WUSTL/Web/Django/Django REST Framework/ed_reviews/settings.py&#10;setti&#9;FILE&#9;file:///Users/yuanzheng/Desktop/WUSTL/Web/Django/Django REST Framework/ed_reviews/settings.py&#10;model&#9;null&#9;null&#10;setting&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="seria&#9;FILE&#9;file:///Users/yuanzheng/Desktop/WUSTL/Web/Django/Django REST Framework/courses/serializers.py&#10;sett&#9;FILE&#9;file:///Users/yuanzheng/Desktop/WUSTL/Web/Django/Django REST Framework/ed_reviews/settings.py&#10;setti&#9;FILE&#9;file:///Users/yuanzheng/Desktop/WUSTL/Web/Django/Django REST Framework/ed_reviews/settings.py&#10;settin&#9;FILE&#9;file:///Users/yuanzheng/Desktop/WUSTL/Web/Django/Django REST Framework/ed_reviews/settings.py&#10;url&#9;FILE&#9;file:///Users/yuanzheng/Desktop/WUSTL/Web/Django/Django REST Framework/courses/urls.py&#10;view&#9;null&#9;null&#10;vie&#9;FILE&#9;file:///Users/yuanzheng/Desktop/WUSTL/Web/Django/Django REST Framework/courses/views.py&#10;model&#9;null&#9;null&#10;setting&#9;null&#9;null" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myShowVariablesByDefault" value="false" />
@@ -333,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514434608109</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add pagination to the custom view">
+      <created>1514435006246</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1514435006246</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -375,7 +408,8 @@
     <MESSAGE value="customize the review viewset to remove the list mixins" />
     <MESSAGE value="use review serializer as a field in course serializer to show the reviews in course page" />
     <MESSAGE value="use HyperModelLink to show the relation model serialization data" />
-    <option name="LAST_COMMIT_MESSAGE" value="use HyperModelLink to show the relation model serialization data" />
+    <MESSAGE value="add pagination to the custom view" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pagination to the custom view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -408,21 +442,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/models.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="60">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ed_reviews/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-          <folding>
-            <element signature="e#644#685#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -436,32 +460,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/serializers.py">
+    <entry file="file://$PROJECT_DIR$/ed_reviews/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="205">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#644#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ed_reviews/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="120" column="16" lean-forward="true" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
+        <state relative-caret-position="288">
+          <caret line="126" column="35" lean-forward="true" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="35" />
           <folding>
             <element signature="e#311#320#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/views.py">
+    <entry file="file://$PROJECT_DIR$/courses/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+        <state relative-caret-position="273">
+          <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
